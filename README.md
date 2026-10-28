@@ -1,6 +1,7 @@
 # Praxis releases
 
-Release binaries for **Praxis** (`prx`) — a coding agent that is also a library:
+Release binaries for **Praxis** (`prx`) — a coding agent that is also
+a library:
 an interactive terminal client, a headless runner and an embeddable SDK in one
 pure-Go binary — and the **Praxis desktop app** for macOS.
 
@@ -9,9 +10,11 @@ automatically.
 
 ## Install
 
-**Homebrew** (macOS and Linux):
+**Homebrew** (macOS and Linux): trust the tap once, then install. Homebrew
+refuses to install from an untrusted tap, so the `brew trust` step is required:
 
 ```sh
+brew trust facets-cloud/tap
 brew install facets-cloud/tap/prx
 ```
 
